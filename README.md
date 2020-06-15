@@ -1,3 +1,15 @@
+## Запуск
+Создать файл .env из файла .env.example изменив доступы к БД
+
+```sh 
+$ composer install
+$ php artisan key:generate
+$ php artisan migrate
+$ npm install
+$ npm run dev
+$ php artisan serve
+```
+
 ## Тестовое задание (бекенд-разработчик)
 
 ### Задача: Разработать форму отправки данных и поиска согласн требованиям.
